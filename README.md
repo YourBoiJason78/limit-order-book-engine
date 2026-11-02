@@ -8,14 +8,14 @@ independent of the demo and has no third-party dependencies.
 From the repository root, configure and build with CMake 3.16 or newer:
 
 ```sh
-cmake -S projects/order_book -B projects/order_book/build -DCMAKE_BUILD_TYPE=Release
-cmake --build projects/order_book/build
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build
 ```
 
-Run `projects/order_book/build/order_book_demo` on Linux or macOS. On Windows,
-run `projects/order_book/build/order_book_demo.exe` with a single-configuration
-generator, or the executable in `projects/order_book/build/Debug/` or
-`projects/order_book/build/Release/` with a multi-configuration generator.
+Run `build/order_book_demo` on Linux or macOS. On Windows,
+run `build/order_book_demo.exe` with a single-configuration
+generator, or the executable in `build/Debug/` or `build/Release/` with a
+multi-configuration generator.
 
 ## Matching rules
 
